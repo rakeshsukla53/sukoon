@@ -5,9 +5,6 @@ __pycache__/
 *.py[cod]
 *$py.class
 
-# my files
-/settings/local.py
-
 # C extensions
 *.so
 
@@ -18,7 +15,8 @@ build/
 develop-eggs/
 dist/
 downloads/
-eggs/.eggs/
+eggs/
+.eggs/
 lib/
 lib64/
 parts/
@@ -28,6 +26,7 @@ wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+.idea
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -97,19 +96,3 @@ ENV/
 # Rope project settings
 .ropeproject
 
-.DS_Store
-sukoon/.gitignore
-../.idea/
-src/.DS_Store
-src/db.sqlite3
-src/manage.py
-src/requirements.txt
-src/sukoon/.DS_Store
-src/sukoon/__init__.py
-src/sukoon/__pycache__/
-src/sukoon/settings/__pycache__/
-src/sukoon/settings/base.py
-src/sukoon/settings/local.py
-src/sukoon/settings/production.py
-src/sukoon/urls.py
-src/sukoon/wsgi.py
