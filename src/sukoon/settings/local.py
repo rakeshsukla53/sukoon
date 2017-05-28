@@ -24,7 +24,7 @@ SECRET_KEY = 'tgi!+9t&1ns#kiq$=b#*d+sg8bp-#d6q*m#=p@oxir9z2z4kr('
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['0.0.0.0']
 
 
 # Application definition
