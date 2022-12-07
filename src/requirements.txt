@@ -1,7 +1,7 @@
 appdirs==1.4.3
 blessings==1.6
 bpython==0.16
-certifi==2017.4.17
+certifi==2022.12.7
 chardet==3.0.3
 curtsies==0.2.11
 dj-database-url==0.4.2
